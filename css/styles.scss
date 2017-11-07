@@ -10,7 +10,7 @@ $carousel-item-height: 300px;
 	margin: 0px auto;
 	padding: $pad-up-down $pad-left-right;
 }
-
+ 
 .row-header {
 	@include zero-margin(0px, 0px);
 }
@@ -20,7 +20,6 @@ $carousel-item-height: 300px;
 	border-bottom: 1px ridge;
 	min-height: 400px;
 }
-
 .footer {
 	background-color: $background-pale;
 	@include zero-margin(20px, 0px);
@@ -43,7 +42,7 @@ body {
 	z-index: 0;
 }
 
-.navbar-dark {
+.navbar-inverse {
 	background-color: $background-dark;
 }
 
